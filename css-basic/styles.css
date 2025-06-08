@@ -10,10 +10,13 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    background-color: lavender;
+    border-radius: 15px;
 }
 aside {
     flex: 1;
     overflow-y: auto;
+   
 }
 @media (max-width: 800px) {
     body.works_on_smartphone {
