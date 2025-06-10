@@ -5,7 +5,7 @@ This project involves building a webpage from scratch based on a Figma designer 
 
 ## Figma Design Reference
 The design file is available on Figma:
-- [Page in Figma](figma-link)
+- [Page in Figma](https://www.figma.com/design/vzQtXeWZmPYy5KyLatIpWb/Homepage--Copy-?node-id=0-1&p=f&t=HShIkXN8PhsA8txy-0)
 - Fonts used: Source Sans Pro and Spin Cycle OT
 
 ## Project Structure
