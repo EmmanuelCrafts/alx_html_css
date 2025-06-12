@@ -50,4 +50,19 @@
     display: flex;
     flex-direction: column;
   }
-  
+  header {
+    width: 1103.41px;
+    height: 29.46px;
+    background-color: darkgray;
+  }
+ 
+ .navbar {
+    display: flex;
+    
+ }
+ .nav-links {
+    display: flex;
+    gap: 2rem;
+    color: #fff;
+    margin: auto;
+ }
