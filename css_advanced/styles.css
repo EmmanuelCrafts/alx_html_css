@@ -1,68 +1,89 @@
 /* Universal Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the header background */
+header {
+  color: lightgray;
+  padding: 20px 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
   
-  /* Remove default styles from common elements */
-  body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, blockquote, dl, dd {
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul, ol {
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  
-  input, button, textarea, select {
-    font: inherit;
-    border: none;
-    outline: none;
-    background: none;
-  }
-  
-  button {
-    cursor: pointer;
-  }
-  
-  html, body {
-    height: 100%;
-    font-family: sans-serif;
-    background-color: #fff;
-    color: #000;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  header {
-    width: 1103.41px;
-    height: 29.46px;
-    background-color: darkgray;
-  }
  
- .navbar {
-    display: flex;
-    
- }
- .nav-links {
-    display: flex;
-    gap: 2rem;
-    color: #fff;
-    margin: auto;
- }
+}
+/* flex layout for the nav */
+.navbar {
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  gap: 1rem;
+  width: 90%;
+}
+
+.nav-links{
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+  color: white;
+}
+
+.nav-links  a{
+  color: black;
+
+}
+header {
+  background-color: darkgray;
+}
+
+/* banner styling */
+.text-section {
+  margin: 5rem;
+  text-align: center;
+}
+
+h1 {
+  font: bold;
+  font-size: 120px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-section span {
+  padding: 1rem;
+}
+
+.text-section button {
+  margin: 1.5rem auto;
+  display: block;
+  color: #FFFFFF;
+  background-color: #C271FF;
+  padding: 1rem;
+  border-radius: 1.8rem;
+  border-style: none;
+}
+
+.head-2 h2{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.head-2 span {
+  color: #C271FF;
+}
+
+.image-section {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
