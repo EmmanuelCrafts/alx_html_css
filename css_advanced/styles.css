@@ -31,14 +31,17 @@ a {
 
 .nav-links{
   display: flex;
-  gap: 30px;
+  gap: 2rem;
   margin-left: auto;
   color: white;
 }
 
 .nav-links  a{
-  color: black;
+  color: white;
+}
 
+.navbar a {
+  margin-left: 6rem;
 }
 header {
   background-color: darkgray;
@@ -86,4 +89,17 @@ body {
   display: flex;
   gap: 3rem;
   justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+
+.image-section img {
+   padding: 3rem;
+   padding-bottom: 0.3rem;
+}
+
+.image-three img {
+   border-radius: 50%;
 }
