@@ -6,10 +6,6 @@
 }
 
 /* Style the header background */
-header {
-  padding: 20px 0;
-}
-
 ul, ol {
   list-style: none;
 }
@@ -29,27 +25,33 @@ body {
   background-position: center;
   color: #FFFFFF;
   padding-bottom: 2rem;
+  height: 1093px;
 }
 /* flex layout for the nav */
 .navbar {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem;
+  flex-wrap: wrap;
 }
 
 .nav-links{
   display: flex;
-  gap: 2rem;
-  margin-left: auto;
   color: white;
+  padding-right: 3rem;
+  gap: 4rem;
+}
+
+.navbar img{
+  padding-left: 4rem;
+}
+header {
+  padding: 1rem 5rem;
 }
 
 .nav-links  a{
   color: white;
-}
-
-.navbar a {
-  margin-left: 6rem;
 }
 
 /* banner section styling */
