@@ -7,7 +7,6 @@
 
 /* Style the header background */
 header {
-  color: lightgray;
   padding: 20px 0;
 }
 
@@ -19,13 +18,23 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hero {
+  background-image: url(images/Object.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  padding-bottom: 2rem;
+}
 /* flex layout for the nav */
 .navbar {
   display: flex;
-  max-width: 1200px;
   align-items: center;
   gap: 1rem;
-  width: 90%;
 }
 
 .nav-links{
@@ -42,9 +51,6 @@ a {
 .navbar a {
   margin-left: 6rem;
 }
-header {
-  background-color: darkgray;
-}
 
 /* banner section styling */
 .text-section {
@@ -57,9 +63,6 @@ h1 {
   font-size: 120px;
 }
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-}
 
 .text-section span {
   padding: 1rem;
