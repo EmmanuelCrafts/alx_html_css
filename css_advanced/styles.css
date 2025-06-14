@@ -144,3 +144,53 @@ body {
   padding-top: 1rem;
 }
 
+/* video list styling */
+.video-list {
+  margin: 4rem;
+  display: block;
+}
+
+.video-list h2 {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.video-list h2 span {
+  color: #C271FF;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); 
+  padding: 20px; 
+  gap: 2rem;
+}
+
+.video-container p {
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  height: 50px;
+  width: 50px;
+}
+
+.video-card {
+  background-color: antiquewhite
+}
+
+.image-play {
+    width: 100%;
+}
