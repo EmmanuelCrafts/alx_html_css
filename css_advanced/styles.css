@@ -17,9 +17,8 @@ ul, ol {
 
 a {
   text-decoration: none;
-  
- 
 }
+
 /* flex layout for the nav */
 .navbar {
   display: flex;
@@ -217,4 +216,50 @@ body {
 
 .rating p{
   color: #C271FF;
+}
+/* membership styling */
+.membership {
+  background-color: #071629;
+  color: #FFFFFF;
+}
+
+.membership h2{
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.membership span {
+  color: #C271FF;
+}
+
+.membership-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px ,1fr));
+  gap: 1rem;
+  padding: 4rem;
+}
+
+.smile-image {
+  display: grid;
+  justify-items: center;  
+}
+
+.smile-image h3 {
+  padding: 0.8rem;
+}
+
+.membership button {
+  margin: 4rem;
+  background-color: #C271FF;
+  border-radius: 2rem;
+  padding: 1rem;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.register-button {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
 }
