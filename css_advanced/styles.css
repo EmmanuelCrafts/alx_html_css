@@ -63,6 +63,7 @@ header {
 h1 {
   font: bold;
   font-size: 120px;
+  margin-top: 10rem;
 }
 
 
@@ -85,6 +86,8 @@ h1 {
   text-align: center;
   color: #979797;
   font-weight: bold;
+   margin-top: 10rem;
+   margin-bottom: 8rem;
 }
 
 .head-2  h2 span {
@@ -93,28 +96,17 @@ h1 {
 
 .image-section {
   display: flex;
-  gap: 1rem;
+  column-gap: 5rem;
   justify-content: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  flex-wrap: wrap;
-}
-
-
-
-.image-section img {
-   padding: 3rem;
-   padding-bottom: 0.3rem;
+  width: 1009px;
+  height: 237px;
+  margin: 0 auto;
 }
 
 .image-three img {
    border-radius: 50%;
 }
 
-.image-section h3 , p {
-   padding-left: 3rem;
-   margin-left: 2rem;
-}
 
 .image-section p{
   color: #979797;
@@ -173,7 +165,6 @@ h1 {
   display: block;
   width: 1228px;
   height: 450px;
-  border: 1px solid black;
   margin: 2rem auto;
 
 }
@@ -253,6 +244,7 @@ h1 {
   background-color: #071629;
   color: #FFFFFF;
   margin-bottom: 1rem;
+  height: 502px;
 }
 
 .membership h2{
@@ -260,25 +252,35 @@ h1 {
   padding-top: 2rem;
 }
 
+.membership p{
+ text-align: left;
+ padding-left: 1rem;
+}
 .membership span {
   color: #C271FF;
 }
 
 .membership-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px ,1fr));
-  gap: 1rem;
-  padding: 4rem;
+  grid-template-columns: repeat(4, 257px) ;
+  column-gap: 2.5rem;
+  padding: 1rem;
+  justify-items: center;
+  width: 1228px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  
 }
 
 .smile-image {
   display: grid;
   justify-items: center;  
+  width: 257px;
+  height: 153px;
 }
-
-.smile-image h3 {
-  padding: 0.8rem;
-}
+  .smile-image p {
+    text-align: justify;
+  }
 
 .membership button {
   margin: 4rem;
