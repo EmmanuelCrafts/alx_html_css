@@ -168,7 +168,7 @@ body {
 
 .video-container p {
   text-align: left;
-  padding-left: 0;
+  padding-left: 7px;
   margin-left: 0;
 }
 
@@ -187,10 +187,34 @@ body {
   width: 50px;
 }
 
-.video-card {
-  background-color: antiquewhite
+.video-card  h3 {
+   padding: 7px;
 }
 
 .image-play {
     width: 100%;
+}
+
+.video-card .author img {
+  width: 20%;
+  padding: 10px;
+}
+
+.video-card .author {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.author h4 {
+  color: #C271FF;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating p{
+  color: #C271FF;
 }
