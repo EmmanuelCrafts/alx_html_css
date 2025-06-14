@@ -221,6 +221,7 @@ body {
 .membership {
   background-color: #071629;
   color: #FFFFFF;
+  margin-bottom: 1rem;
 }
 
 .membership h2{
@@ -262,4 +263,34 @@ body {
   display: flex;
   justify-content: center;
   padding: 3rem;
+}
+
+/* faq section styling */
+.faq-section {
+  width: 920px;
+  height: 707px;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.faq-section  h2{
+  text-align: center;
+  padding: 1rem;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+.faq-section .container-1{
+  display:grid;
+  grid-template-columns: repeat(2, 350px);
+  grid-template-rows: repeat(2,242);
+  gap: 2rem;
+  text-align: center;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.container-1 div p{
+   text-align: start;
+   padding-top: 1rem;
 }
