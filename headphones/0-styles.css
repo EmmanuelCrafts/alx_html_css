@@ -105,3 +105,21 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+/* navbar styling for desktop*/
+header {
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.nav-list {
+  display: flex;
+  color: #fff;
+  gap: 2rem;
+  align-items: center;
+}
