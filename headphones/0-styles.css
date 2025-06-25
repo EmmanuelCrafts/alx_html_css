@@ -100,7 +100,7 @@ body {
 }
 
 /* hero section 1 styling */
-.hero-section1{
+.hero-section{
     background-image: url(images/headphones_hero_1.jpg);
     background-position: center;
     background-size: cover;
@@ -111,10 +111,11 @@ header {
   padding: 1rem;
 }
 
-nav {
+.nav-bar {
   display: flex;
   justify-content: space-between;
-  justify-content: space-around;
+  padding-right: 1rem;
+ 
 }
 
 .nav-list {
@@ -122,4 +123,34 @@ nav {
   color: #fff;
   gap: 2rem;
   align-items: center;
+}
+
+.nav-logo {
+  padding-left: 1rem;
+}
+
+.hero-page {
+  color: #fff;
+  margin-top: 4rem;
+  }
+
+  .top-heading {
+     text-align: center;
+  }
+
+  .top-heading h1 {
+    font-size: 2.5rem;
+  }
+
+  .top-heading h2 {
+    font-size: 1.2rem;
+  }
+
+.action-btn {
+  background-color: #E94E5A;
+  padding: 12px 24px;
+  border-radius: 24px;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
 }
