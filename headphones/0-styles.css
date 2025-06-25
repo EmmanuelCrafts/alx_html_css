@@ -123,6 +123,7 @@ header {
   color: #fff;
   gap: 2rem;
   align-items: center;
+  font-size: 1.2rem;
 }
 
 .nav-logo {
@@ -151,6 +152,6 @@ header {
   padding: 12px 24px;
   border-radius: 24px;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border: none;
 }
