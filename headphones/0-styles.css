@@ -243,7 +243,6 @@ cursor: pointer;
   background-image: url(images/headphones_hero_1.jpg);
   background-position:top center;
   background-size: cover;
-
 }
 
 /* navbar styling for desktop*/
@@ -265,4 +264,41 @@ gap: 1rem;
 align-items: center;
 font-size: 17px;
 }
+
+.hamburger {
+  display: none;
+}
+
+
+.nav-logo img{
+  width: 60%;
+ }
+
+ .hero-page {
+ color: #fff;
+ margin-top: 4rem;
+ }
+ 
+ .top-heading {
+    text-align: center;
+    margin-top: 10rem;
+    padding-top: 4rem;
+ }
+ 
+ .top-heading h1 {
+   font-size: 2rem;
+   padding-top: 4rem;
+   margin-top: 4rem;
+ }
+ 
+ .top-heading h2 {
+   font-size: 18px;
+ }
+
+ .hero-paragraph {
+ width: 80%;
+ margin: 0 auto;
+ text-align: center;
+ font-size: 17px;
+ }
 }
