@@ -99,77 +99,92 @@ body {
     margin: 0 auto;
 }
 
+@media (min-width: 901px){
+
 /* hero section 1 styling */
 .hero-section{
-    background-image: url(images/headphones_hero_1.jpg);
-    background-position: top center;
-    background-size: cover;
+  background-image: url(images/headphones_hero_1.jpg);
+  background-position:top center;
+  background-size: cover;
 
 }
 
 /* navbar styling for desktop*/
 header {
-  padding-top: 2rem;
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
+padding-top: 2rem;
+margin-bottom: 3rem;
+padding-bottom: 2rem;
 }
 
 .nav-bar {
-  display: flex;
-  justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 
 .nav-list {
-  display: flex;
-  color: #fff;
-  gap: 1rem;
-  align-items: center;
-  font-size: 17px;
+display: flex;
+color: #fff;
+gap: 1rem;
+align-items: center;
+font-size: 17px;
+}
+
+.nav-list li:hover,
+li:active
+{
+color: #FF6565;
 }
 
 .nav-logo img{
-   width: 60%;
+ width: 60%;
 }
 .hero-page {
-  color: #fff;
+color: #fff;
+margin-top: 4rem;
+}
+
+.top-heading {
+   text-align: center;
+   margin-top: 10rem;
+   padding-top: 4rem;
+}
+
+.top-heading h1 {
+  font-size: 2rem;
+  padding-top: 4rem;
   margin-top: 4rem;
-  }
+}
 
-  .top-heading {
-     text-align: center;
-     margin-top: 10rem;
-     padding-top: 4rem;
-  }
-
-  .top-heading h1 {
-    font-size: 2rem;
-    padding-top: 4rem;
-    border: 1px solid black;
-    margin-top: 4rem;
-  }
-
-  .top-heading h2 {
-    font-size: 18px;
-  }
+.top-heading h2 {
+  font-size: 18px;
+}
 /* style button */
- .button-container {
-      display: flex;
-      justify-content: center;
-      margin: 4rem;
- }
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
 
 .action-btn {
-  background-color: #E94E5A;
-  padding: 12px 24px;
-  border-radius: 24px;
-  color: white;
-  font-size: 1.1rem;
-  border: none;
+background-color: #E94E5A;
+padding: 12px 24px;
+border-radius: 24px;
+color: white;
+font-size: 1.1rem;
+border: none;
+cursor: pointer;
+}
+
+.action-btn:hover,
+.action-btn:active {
+ opacity: 0.9;
 }
 
 .hero-paragraph {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 4rem;
+width: 80%;
+margin: 0 auto;
+text-align: center;
+padding-bottom: 4rem;
+font-size: 17px;
+}
 }
