@@ -97,8 +97,8 @@ body {
   
 /* container sttyling */
 .container {
-    max-width: 1000px;
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
  .hero-section {
@@ -216,6 +216,25 @@ cursor: pointer;
  opacity: 0.9;
 }
 
+/* tablet styling */
+@media (min-width: 600px)  and (max-width: 900px){
+  .nav-list {
+    display: flex;
+    color: #fff;
+    gap: 1rem;
+    align-items: center;
+    font-size: 17px;
+    padding-right: 1rem;
+    }
+    
+    .hamburger {
+      display: none;
+    }
+
+    .nav-logo {
+      padding-left: 1rem;
+    }
+}
 /* desktop styling */
 @media (min-width: 901px){
 
