@@ -153,6 +153,9 @@ body {
   width: 70%;
  }
 
+ .nav-logo {
+  padding-right: 1.5rem;
+ }
 .nav-list li:hover,
 li:active
 {
