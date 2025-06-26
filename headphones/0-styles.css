@@ -107,31 +107,89 @@ body {
    background-size: cover;
  }
 
- .nav-logo img{
-  width: 30%;
- }
-
-.action-btn:hover,
-.action-btn:active {
- opacity: 0.9;
+  
+  header {
+    padding-top: 5px;
+  }
+/* humburger menui styling */
+.hamburger {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 
+.line {
+  background-color: white;
+  height: 3px;
+}
+
+.line-1,
+.line-3 {
+    width: 100%;
+}
+
+.line-2 {
+   width: 60%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.nav-list {
+     display: none;
+}
+
+.nav-logo img{
+  width: 70%;
+ }
+
+.nav-list li:hover,
+li:active
+{
+color: #FF6565;
+}
+
+.hero-page {
+  color: #fff;
+  margin-top: 4rem;
+  }
+
 .top-heading {
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 5.5rem;
   padding-top: 4rem;
 }
 
 .top-heading h1 {
- font-size: 2rem;
- padding-top: 4rem;
+ font-size: 2.5rem;
+ padding-top: 2rem;
  margin-top: 4rem;
+ font-weight: bold;
+ line-height: 2.3rem;
 }
 
+
 .top-heading h2 {
- font-size: 18px;
+ font-size: 20px;
+ margin-top: 5px;
 }
+
+.hero-paragraph {
+  text-align: center;
+  font-size: 16px;
+  margin: 1rem;
+  padding-bottom: 2rem;
+  }
 /* style button */
 .button-container {
    display: flex;
@@ -149,48 +207,12 @@ border: none;
 cursor: pointer;
 }
 
-.hero-paragraph {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 4rem;
-  font-size: 17px;
-  }
-  
-/* humburger menui styling */
-.hamburger {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  cursor: pointer;
+
+.action-btn:hover,
+.action-btn:active {
+ opacity: 0.9;
 }
 
-.line {
-  background-color: white;
-  height: 3px;
-}
-
-.line-1,
-.line-3 {
-    width: 100%;
-}
-
-.line-2 {
-   width: 60%;
-}
-
-.nav-list li:hover,
-li:active
-{
-color: #FF6565;
-}
-
-.hero-page {
-  color: #fff;
-  margin-top: 4rem;
-  }
 /* desktop styling */
 @media (min-width: 901px){
 
