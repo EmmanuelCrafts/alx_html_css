@@ -169,7 +169,7 @@ color: #FF6565;
 
 .top-heading {
   text-align: center;
-  margin-top: 5.5rem;
+  margin-top: 6.4rem;
   padding-top: 4rem;
 }
 
@@ -191,7 +191,8 @@ color: #FF6565;
   text-align: center;
   font-size: 16px;
   margin: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
   }
 /* style button */
 .button-container {
@@ -286,8 +287,8 @@ font-size: 17px;
  }
  
  .top-heading h1 {
-   font-size: 2rem;
-   padding-top: 4rem;
+   font-size: 42px;
+   padding-top: 3.3rem;
    margin-top: 4rem;
  }
  
