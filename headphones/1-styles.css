@@ -77,6 +77,7 @@ html {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.6;
+    letter-spacing: 0.4px;
 }
 
   /* spin cycle font  */
@@ -95,7 +96,97 @@ body {
   }
 
 
+  /* what we do font icons */
+  @font-face {
+    font-family: 'holberton_school-icon';
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+      url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+      url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+      url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
   
+  [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .holberton_school-icon-arrow_1:before {
+    content: "\e900";
+  }
+  .holberton_school-icon-arrow_2:before {
+    content: "\e901";
+  }
+  .holberton_school-icon-arrow_3:before {
+    content: "\e902";
+  }
+  .holberton_school-icon-arrow_4:before {
+    content: "\e903";
+  }
+  .holberton_school-icon-arrow_5:before {
+    content: "\e904";
+  }
+  .holberton_school-icon-check:before {
+    content: "\e905";
+  }
+  .holberton_school-icon-ic_bag:before {
+    content: "\e906";
+  }
+  .holberton_school-icon-ic_cart:before {
+    content: "\e907";
+  }
+  .holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+  }
+  .holberton_school-icon-ic_hearing:before {
+    content: "\e909";
+  }
+  .holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+  }
+  .holberton_school-icon-ic_laptop:before {
+    content: "\e90b";
+  }
+  .holberton_school-icon-ic_money:before {
+    content: "\e90c";
+  }
+  .holberton_school-icon-ic_music:before {
+    content: "\e90d";
+  }
+  .holberton_school-icon-ic_sound:before {
+    content: "\e90e";
+  }
+  .holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+  }
+  .holberton_school-icon-ic_video:before {
+    content: "\e910";
+  }
+  .holberton_school-icon-menu:before {
+    content: "\e911";
+  }
+  .holberton_school-icon-search_1:before {
+    content: "\e912";
+  }
+  .holberton_school-icon-search_2:before {
+    content: "\e913";
+  }
+  .holberton_school-icon-star:before {
+    content: "\e914";
+  }
 /* container sttyling */
 .container {
   max-width: 1000px;
@@ -104,7 +195,7 @@ body {
 
  .hero-section {
    background-image: url(images/headphones_hero_1.jpg);
-   background-position: center;
+   background-position:32% center;
    background-size: cover;
  }
 
@@ -151,7 +242,7 @@ body {
 }
 
 .nav-logo img{
-  width: 70%;
+  width: 60%;
  }
 
  .nav-logo {
@@ -170,8 +261,8 @@ color: #FF6565;
 
 .top-heading {
   text-align: center;
-  margin-top: 6.4rem;
-  padding-top: 4rem;
+  margin-top: 10rem;
+  padding-top: 8rem;
 }
 
 .top-heading h1 {
@@ -179,13 +270,16 @@ color: #FF6565;
  padding-top: 2rem;
  margin-top: 4rem;
  font-weight: bold;
- line-height: 0.8;
+ line-height: 1.1;
 }
 
 
 .top-heading h2 {
  font-size: 18px;
- margin-top: 5px;
+ margin-top: 3px;
+ font-weight: 600;
+ line-height: 1.2;
+ padding-bottom: 1.8rem;
 }
 
 .hero-paragraph {
@@ -199,17 +293,19 @@ color: #FF6565;
 .button-container {
    display: flex;
    justify-content: center;
-   margin: 4rem;
+   margin-bottom: 3rem;
+   margin-top: 2rem;
 }
 
 .action-btn {
 background-color: #E94E5A;
-padding: 12px 24px;
+padding: 14px 36px;
 border-radius: 24px;
 color: white;
 font-size: 1.1rem;
 border: none;
 cursor: pointer;
+
 }
 
 
@@ -234,6 +330,27 @@ padding-bottom: 2.5rem;
 .what-we-do p {
     font-size: 17px;
 }
+
+/* icons styling */
+.font-icons {
+    padding-bottom: 5rem;
+}
+.font-1 {
+ text-align: center;
+ margin-top: 5rem;
+}
+
+.icon-font {
+    font-size: 100px;
+    color: #E94E5A;
+    opacity: 0.9;
+}
+.font-icons h3 {
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
 /* tablet styling */
 @media (min-width: 600px)  and (max-width: 900px){
   .nav-list {
