@@ -506,5 +506,20 @@ font-size: 17px;
  text-align: center;
  font-size: 17px;
  }
+
+ /* what about section styling */
+ .font-icons {
+    display: grid;
+    justify-content: center;
+    column-gap: 1rem;
+    grid-template-columns: repeat(4, 300px);
 }
 
+
+.font-1 p {
+padding: 0px;;
+max-width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+}
