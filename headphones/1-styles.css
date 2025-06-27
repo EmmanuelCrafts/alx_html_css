@@ -1,0 +1,323 @@
+/* Reset box sizing for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* Set HTML5 elements to display block */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Set base font family and line height */
+body {
+  line-height: 1.5;
+  font-family: system-ui, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Remove list styles */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove default blockquote and quote styles */
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+/* Remove table spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove link underlines and color inheritance */
+a {
+  text-decoration: none;
+  color: inherit;
+  }
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* body font styling */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+}
+
+  /* spin cycle font  */
+  @font-face {
+    font-family: 'Spin Cycle';
+    src: url(Spin-Cycle-OT-Font/spincycle_ot.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Spin Cycle 3D';
+    src: url('../fonts/spincycle_3d_ot.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  
+/* container sttyling */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+ .hero-section {
+   background-image: url(images/headphones_hero_1.jpg);
+   background-position: center;
+   background-size: cover;
+ }
+
+  
+  header {
+    padding-top: 5px;
+  }
+/* humburger menui styling */
+.hamburger {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+
+.line {
+  background-color: white;
+  height: 3px;
+}
+
+.line-1,
+.line-3 {
+    width: 100%;
+}
+
+.line-2 {
+   width: 60%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.nav-list {
+     display: none;
+}
+
+.nav-logo img{
+  width: 70%;
+ }
+
+ .nav-logo {
+  padding-right: 1.5rem;
+ }
+.nav-list li:hover,
+li:active
+{
+color: #FF6565;
+}
+
+.hero-page {
+  color: #fff;
+  margin-top: 4rem;
+  }
+
+.top-heading {
+  text-align: center;
+  margin-top: 6.4rem;
+  padding-top: 4rem;
+}
+
+.top-heading h1 {
+ font-size: 34px;
+ padding-top: 2rem;
+ margin-top: 4rem;
+ font-weight: bold;
+ line-height: 0.8;
+}
+
+
+.top-heading h2 {
+ font-size: 18px;
+ margin-top: 5px;
+}
+
+.hero-paragraph {
+  text-align: center;
+  font-size: 16px;
+  margin: 1rem;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  }
+/* style button */
+.button-container {
+   display: flex;
+   justify-content: center;
+   margin: 4rem;
+}
+
+.action-btn {
+background-color: #E94E5A;
+padding: 12px 24px;
+border-radius: 24px;
+color: white;
+font-size: 1.1rem;
+border: none;
+cursor: pointer;
+}
+
+
+.action-btn:hover,
+.action-btn:active {
+ opacity: 0.9;
+}
+
+/* what we do section styling */
+.what-we-do {
+    padding: 1rem;
+    text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 28px;
+font-weight: 550;
+padding-top: 4rem;
+padding-bottom: 2.5rem;
+}
+
+.what-we-do p {
+    font-size: 17px;
+}
+/* tablet styling */
+@media (min-width: 600px)  and (max-width: 900px){
+  .nav-list {
+    display: flex;
+    color: #fff;
+    gap: 1rem;
+    align-items: center;
+    font-size: 17px;
+    padding-right: 1rem;
+    }
+    
+    .hamburger {
+      display: none;
+    }
+
+    .nav-logo {
+      padding-left: 1rem;
+    }
+}
+/* desktop styling */
+@media (min-width: 901px){
+
+/* hero section 1 styling */
+.hero-section{
+  background-image: url(images/headphones_hero_1.jpg);
+  background-position:top center;
+  background-size: cover;
+}
+
+/* navbar styling for desktop*/
+header {
+padding-top: 2rem;
+margin-bottom: 3rem;
+padding-bottom: 2rem;
+}
+
+.nav-bar {
+display: flex;
+justify-content: space-between;
+}
+
+.nav-list {
+display: flex;
+color: #fff;
+gap: 1rem;
+align-items: center;
+font-size: 17px;
+}
+
+.hamburger {
+  display: none;
+}
+
+
+.nav-logo img{
+  width: 60%;
+ }
+
+ .hero-page {
+ color: #fff;
+ margin-top: 4rem;
+ }
+ 
+ .top-heading {
+    text-align: center;
+    margin-top: 10rem;
+    padding-top: 4rem;
+ }
+ 
+ .top-heading h1 {
+   font-size: 38px;
+   padding-top: 3.3rem;
+   margin-top: 4rem;
+ }
+ 
+ .top-heading h2 {
+   font-size: 18px;
+ }
+
+ .hero-paragraph {
+ width: 80%;
+ margin: 0 auto;
+ text-align: center;
+ font-size: 17px;
+ }
+}
+
