@@ -1,82 +1,62 @@
-/* Reset box sizing for all elements */
-*,
-*::before,
-*::after {
+/* Box sizing reset */
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
 /* Remove default margin and padding */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
   margin: 0;
   padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* Set HTML5 elements to display block */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-/* Set base font family and line height */
-body {
-  line-height: 1.5;
-  font-family: system-ui, sans-serif;
-  background-color: #fff;
-  color: #000;
 }
 
 /* Remove list styles */
-ol, ul {
+ul, ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* Remove default blockquote and quote styles */
+/* Remove link underlines and inherit color */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set core body defaults */
+
+/* Make images easier to work with */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default quotes */
 blockquote, q {
   quotes: none;
 }
 blockquote::before, blockquote::after,
 q::before, q::after {
-  content: '';
   content: none;
 }
 
-/* Remove table spacing */
+/* Table resets */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* Remove link underlines and color inheritance */
-a {
-  text-decoration: none;
-  color: inherit;
-  }
-
-/* Smooth scrolling */
+/* Smooth scroll */
 html {
   scroll-behavior: smooth;
 }
 
+
+
 /* body font styling */
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     letter-spacing: 0.4px;
 }
 
@@ -371,20 +351,23 @@ padding-bottom: 2.5rem;
 /* results section styling */
 
 .result-section { 
-    padding-top: 4rem;
     background-image: url(images/headphones_hero_2.jpg);
     background-size: cover;
-    background-position: center;
+    background-position:  center top;
     color: white;
+    background-repeat: no-repeat;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
 }
   .result-content h2 {
-    font-size: 28px;
+    font-size: 34px;
     font-weight: 600;
-    max-width: 50%;
+    max-width: 60%;
     margin: 0 auto;
     text-align: center;
     line-height: 1.2;
     padding-bottom: 2rem;
+    padding-top: 2rem;
   }
 
   .result-content p {
@@ -403,14 +386,14 @@ padding-bottom: 2.5rem;
     display: flex;
     justify-content: center;
     position: relative;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
 
   .content-position {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -65%);
     text-align: center;
     color: white;
     font-size: 10px;
@@ -421,7 +404,7 @@ padding-bottom: 2.5rem;
     font-weight: 600;
   }
   .pentagon img {
-    width: 30%;
+    width: 28%;
   }
 /* tablet styling */
 @media (min-width: 600px)  and (max-width: 1023px){
@@ -492,13 +475,50 @@ padding-bottom: 2.5rem;
         grid-template-columns: 300px 300px;
     }
 
-}  
-.font-1 p {
-    padding: 0px;;
-    max-width: 80%;
-    margin: 0 auto;
-    text-align: center;
+
+    .font-1 p {
+      padding: 0px;;
+      max-width: 80;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 14px;
+      max-width: 80%;
+  }
+    /* results section styling */
+.result-content {
+  padding-top: 1rem;
 }
+.pentagon-container {
+  display: grid;
+  justify-content: center;
+  row-gap: 1rem;
+  column-gap: 2rem;
+  grid-template-columns: repeat(2,200px);
+}
+.pentagon {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.pentagon p {
+  font-size: 10px;
+}
+.pentagon img {
+  width: 60%;
+}
+
+.result-section { 
+  background-image: url(images/headphones_hero_2.jpg);
+  background-size: cover;
+  background-position:  75% top;
+}
+
+.content-position {
+  transform: translate(-50%, -45%);
+}
+}  
+
+
 /* desktop styling */
 @media (min-width: 1024px){
 
