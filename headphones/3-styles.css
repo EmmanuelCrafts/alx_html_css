@@ -407,6 +407,43 @@
     .pentagon img {
       width: 28%;
     }
+     
+/* contact section styling */
+
+.contact-us {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+   .contact-us h3 {
+        text-align: center;
+        font-size: 34px;
+        font-weight: 600;
+        padding-top: 2rem;
+        margin-top: 2rem;
+        padding-bottom: 3rem;
+   }
+   
+   input {
+    border: none;
+    border-bottom: 2px solid #e0e0e0;
+    width: 95%;
+   }
+
+   label {
+    font-size: 18px;
+    font-weight: 500;
+   }
+   .inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    padding-top: 2rem;
+   }
+   
+   .inputs:last-child {
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+   }
   /* tablet styling */
   @media (min-width: 600px)  and (max-width: 1023px){
       .hero-section {
@@ -514,6 +551,13 @@
   
   .content-position {
     transform: translate(-50%, -45%);
+  }
+
+  /* contact styling */
+  .inputs {
+    margin: 0 auto;
+    max-width: 50%;
+    padding-top: 2rem;
   }
   }  
   
@@ -631,6 +675,18 @@
   
   .content-position {
     transform: translate(-50%, -35%);
+  }
+  /* contact styling */
+  .inputs {
+    max-width: 40%;
+    margin: 0 auto;
+    padding-bottom: 0px;
+  }
+  label {
+    padding-top: 0px;
+  }
+  .contact-us h3 {
+    padding-bottom: 2rem;
   }
   }  
   
