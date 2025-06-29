@@ -331,7 +331,7 @@
   .font-1 {
    text-align: center;
    margin-top: 5rem;
-   animation: rotate-scaleup 2.5s linear forwards;
+   animation: rotate-scaleup 2s ease forwards;
   }
    /* animations effect */
    @keyframes rotate-scaleup {
@@ -411,7 +411,7 @@
       justify-content: center;
       position: relative;
       padding-bottom: 2rem;
-      animation: slideforward 2.5s ease-out forwards;
+      animation: slideforward 1s ease-out forwards;
       transform-origin: center;
     }
   
