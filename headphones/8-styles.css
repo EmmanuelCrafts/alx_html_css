@@ -528,25 +528,32 @@
           background-size: cover;
         }
   
+      .nav-bar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-bottom: 1rem;
+        }
       .nav-list {
-      display: flex;
-      color: #fff;
-      gap: 3rem;
-      align-items: center;
-      font-size: 17px;
-      padding-right: 1rem;
+        display: flex;
+        color: #fff;
+        gap: 2rem;
+        align-items: center;
+        font-size: 17px;
+        padding-right: 1rem;
+        width: max-content;
       }
+     
       
       .nav-list li:last-child {
-          padding-right: 3rem;
+          padding-right: 2rem;
       }
       .hamburger {
         display: none;
       }
   
       .nav-logo {
-        padding-left: 5rem;
-        margin-left: 2rem;
+        padding-left: 1rem;
       }
       
       .top-heading h1,
@@ -668,18 +675,23 @@
   padding-bottom: 2rem;
   }
   
+
   .nav-bar {
-  display: flex;
-  justify-content: space-between;
-  }
-  
-  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+   }
+.nav-list {
   display: flex;
   color: #fff;
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
   font-size: 17px;
-  }
+  padding-right: 1rem;
+  width: max-content;
+}
+
   
   .hamburger {
     display: none;
